@@ -1,0 +1,3 @@
+include ':cmelibrary'
+include ':app'
+rootProject.name = "AddLib"
