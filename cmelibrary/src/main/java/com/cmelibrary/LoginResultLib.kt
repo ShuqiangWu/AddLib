@@ -1,6 +1,10 @@
 package com.cmelibrary
 
 
-data class LoginResultLib(
-    val error: Int? = null
-)
+class LoginResultLib(
+    var error: Int? = null
+) {
+    constructor() : this(1) {
+
+    }
+}
