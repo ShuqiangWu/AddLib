@@ -1,4 +1,3 @@
-include ':cameralibrary'
 include ':cmelibrary'
 include ':app'
 rootProject.name = "AddLib"
